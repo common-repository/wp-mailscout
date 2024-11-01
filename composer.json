@@ -1,0 +1,13 @@
+{
+    "require": {
+        "google/apiclient": "^2.2",
+        "guzzlehttp/guzzle": "^6.3",
+      "ext-mysqli": "*",
+      "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MS\\": "app/"
+        }
+    }
+}
